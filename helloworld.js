@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('This is the Hello world file\n')
+   response.end('This is the Hello world file is used for the Automated Jenkins Build\n')
 }).listen(3333)
 
 // Console will print the message
